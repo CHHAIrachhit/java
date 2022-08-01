@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="productMagagement.jnlp">
+  <information>
+    <title>productMagagement</title>
+    <vendor>Administrator</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\mysql-connector-java-8.0.27.jar" size="2475087" download="eager" />
+    <jar href="productMagagement.jar" size="11416" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="productmagagement.ProductMagagement"  name="productMagagement" />
+  <update check="always"/>
+</jnlp>
